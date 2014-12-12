@@ -4,6 +4,7 @@
 #include "ofxCv.h"
 #include "ofxFaceTracker.h"
 #include "ofxUI.h"
+#include "ofxOpenCv.h"
 
 class ofApp : public ofBaseApp{
     
@@ -22,11 +23,12 @@ public:
     
     //processing img feild
     ofTexture clone_tex,clone_tex2;
-    ofFbo fbo,fbo_out;
+    ofxCvColorImage color_img,gray_img;
     ofPixels pix;
     
     unsigned char * videoMirror;
     int outputWidth, outputHeight , miniWidth, miniHeight;
+    float faceHeight,faceWidth;
     
     //inputs
     string vid_name,img_name;

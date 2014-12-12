@@ -2,8 +2,8 @@
     <Kind>40</Kind>
     <Name>OFX_UI_WIDGET_CANVAS</Name>
     <IsMinified>0</IsMinified>
-    <XPosition>58.000000000</XPosition>
-    <YPosition>316.000000000</YPosition>
+    <XPosition>0.000000000</XPosition>
+    <YPosition>118.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -12,21 +12,31 @@
 </Widget>
 <Widget>
     <Kind>2</Kind>
-    <Name>Mask</Name>
+    <Name>Mask bg</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Bounding box</Name>
     <Value>0</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>RED</Name>
-    <Value>255.000000000</Value>
+    <Value>145.714294434</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>GREEN</Name>
-    <Value>255.000000000</Value>
+    <Value>146.970443726</Value>
 </Widget>
 <Widget>
     <Kind>4</Kind>
     <Name>BLUE</Name>
-    <Value>255.000000000</Value>
+    <Value>146.970443726</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>SCALE</Name>
+    <Value>800.000000000</Value>
 </Widget>
