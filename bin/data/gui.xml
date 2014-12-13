@@ -3,7 +3,7 @@
     <Name>OFX_UI_WIDGET_CANVAS</Name>
     <IsMinified>0</IsMinified>
     <XPosition>0.000000000</XPosition>
-    <YPosition>118.000000000</YPosition>
+    <YPosition>157.000000000</YPosition>
 </Canvas>
 <Widget>
     <Kind>2</Kind>
@@ -38,5 +38,5 @@
 <Widget>
     <Kind>4</Kind>
     <Name>SCALE</Name>
-    <Value>800.000000000</Value>
+    <Value>153.694580078</Value>
 </Widget>
